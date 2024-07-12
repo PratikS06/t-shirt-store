@@ -1,0 +1,35 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+body {
+    background: linear-gradient(-45deg, #242B2E,#03203C,#1A0014, #03203C);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    }
+    
+    @keyframes gradient {
+    0% {
+    background-position: 0% 50%;
+    }
+    
+    50% {
+    background-position: 100% 50%;
+    }
+    
+    100% {
+    background-position: 0% 50%;
+    }
+}
+
+.bgu{
+  background-color: #242B2E;
+}
+
+/* .cartBody{
+  width: 40rem;
+  margin-bottom: 20px;
+} */
